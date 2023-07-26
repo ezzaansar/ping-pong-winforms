@@ -32,8 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeForm));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             playButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -43,7 +43,7 @@
             // 
             playButton.AutoSize = true;
             playButton.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            playButton.Location = new System.Drawing.Point(303, 314);
+            playButton.Location = new System.Drawing.Point(301, 316);
             playButton.Name = "playButton";
             playButton.Padding = new System.Windows.Forms.Padding(8);
             playButton.Size = new System.Drawing.Size(214, 51);
@@ -75,6 +75,15 @@
             this.panel1.Size = new System.Drawing.Size(818, 469);
             this.panel1.TabIndex = 1;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(257, 418);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(329, 16);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Zain Ul Hassan #12, Ezza Ansar #13, M Ramzan Arif #8";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -84,15 +93,6 @@
             this.label1.Size = new System.Drawing.Size(108, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "Developed By";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(257, 418);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(329, 16);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Zain Ul Hassan #12, Ezza Ansar #13, M Ramzan Arif #8";
             // 
             // HomeForm
             // 
