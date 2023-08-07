@@ -30,12 +30,12 @@ namespace PingPongGame.models
         /// <summary>
         /// Bottom Left Corner of component
         /// </summary>
-        public Point BottomLeftComponent => new Point(x: Position.X - Origin.X, y: Position.Y + Origin.Y);
+        public Point BottomLeftCorner => new Point(x: Position.X - Origin.X, y: Position.Y + Origin.Y);
 
         /// <summary>
         /// Bottom Right Corner of component
         /// </summary>
-        public Point BottomRightComponent => new Point(x: Position.X + Origin.X, y: Position.Y + Origin.Y);
+        public Point BottomRightCorner => new Point(x: Position.X + Origin.X, y: Position.Y + Origin.Y);
         
         /// <summary>
         /// Draw the component on screen with updated values

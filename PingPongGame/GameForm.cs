@@ -176,7 +176,7 @@ namespace PingPongGame
         private void CheckWallOut()
         {
             if (ballPicture.Left < 0)
-            {
+            {                                      
                 ResetBall();
                 player2Score += 1;
                 player2ScoreLabel.Text = player2Score.ToString();
@@ -192,8 +192,8 @@ namespace PingPongGame
         private void CheckPaddleCollision()
         {
             if (ball.UpperLeftCorner.X < player1.UpperRightCorner.X &&
-                ball.BottomLeftComponent.Y > player1.UpperRightCorner.Y &&
-                ball.UpperLeftCorner.Y < player1.BottomRightComponent.Y)
+                ball.BottomLeftCorner.Y > player1.UpperRightCorner.Y &&
+                ball.UpperLeftCorner.Y < player1.BottomRightCorner.Y)
             {
                 currentBallX = GenerateBallX();
                 if (currentBallX < 0)
@@ -204,8 +204,8 @@ namespace PingPongGame
             }
 
             if (ball.UpperRightCorner.X > player2.UpperLeftCorner.X &&
-                ball.BottomRightComponent.Y > player2.UpperLeftCorner.Y &&
-                ball.UpperRightCorner.Y < player2.BottomLeftComponent.Y)
+                ball.BottomRightCorner.Y > player2.UpperLeftCorner.Y &&
+                ball.UpperRightCorner.Y < player2.BottomLeftCorner.Y)
             {
                 currentBallX = GenerateBallX();
                 if (currentBallX > 0)
